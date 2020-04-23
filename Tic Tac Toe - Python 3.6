@@ -31,7 +31,7 @@ def anykey():
 # which is equal to the value of its key as appears in "dic",
 # those values in "dic" will change to X or O as the game rolls.
 def pboard():
-    ''' This functions prints the current board '''
+    ''' This function prints the current board '''
     board = {'row1':'    *    *','row2':'  '+dic.get('A')+' * '+dic.get('B')+'  * '+dic.get('C'),'row3':'*************','row4':'  '+dic.get('D')+' * '+dic.get('E')+'  * '+dic.get('F'),'row5':'*************','row6':'  '+dic.get('G')+' * '+dic.get('H')+'  * '+dic.get('I'),'row7':'    *    *'}
     print('\n\n')
     for i,row in enumerate(board):
@@ -127,7 +127,7 @@ def currentmovef():
 
 ############ Game Starts #####################
 
-#Begining with greeting
+#Opening with greeting
 print('Lets start playing!')
 anykey()
 
